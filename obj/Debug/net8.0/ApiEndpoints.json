@@ -322,6 +322,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "TaskMate.Controllers.BoardsController",
+    "Method": "UpdateBoardIsArchive",
+    "RelativePath": "api/Boards/UpdateBoardIsArchive",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AppUserId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BoardId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TaskMate.Controllers.CardCoverController",
     "Method": "CreateCardCover",
     "RelativePath": "api/CardCover/CreateCardCover",
@@ -1493,6 +1514,38 @@
   },
   {
     "ContainingType": "TaskMate.Controllers.WorkspacesController",
+    "Method": "GetAllIsArch\u0131ve",
+    "RelativePath": "api/Workspaces/GetAllIsArch\u0131ve",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AppUserId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskMate.Controllers.WorkspacesController",
+    "Method": "GetGlobalSearch",
+    "RelativePath": "api/Workspaces/GetGlobalSearch",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchTerm",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskMate.Controllers.WorkspacesController",
     "Method": "ShareLinkWorkspaceUser",
     "RelativePath": "api/Workspaces/ShareLinkWorkspaceUser",
     "HttpMethod": "POST",
@@ -1517,6 +1570,27 @@
       {
         "Name": "Password",
         "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskMate.Controllers.WorkspacesController",
+    "Method": "UpdateIsArchive",
+    "RelativePath": "api/Workspaces/UpdateIsArchive",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AppUserId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "WorkspaceId",
+        "Type": "System.Guid",
         "IsRequired": false
       }
     ],

@@ -20,5 +20,6 @@ public class Card : BaseEntity
     public List<LabelCard>? LabelsCards { get; set; }
     public List<Checklist>? Checklists { get; set; }
     public List<CustomFields>? CustomFields { get; set; }
+    public List<Attachment>? Attachments { get; set; }
 
 }

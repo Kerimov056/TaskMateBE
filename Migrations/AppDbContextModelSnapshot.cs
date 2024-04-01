@@ -230,6 +230,40 @@ namespace TaskMate.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("TaskMate.Entities.Attachment", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("CardsId")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("FileName")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Link")
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("ModiffiedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Text")
+                        .HasColumnType("text");
+
+                    b.Property<bool>("isDeleted")
+                        .HasColumnType("boolean");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CardsId");
+
+                    b.ToTable("Attachment");
+                });
+
             modelBuilder.Entity("TaskMate.Entities.Boards", b =>
                 {
                     b.Property<Guid>("Id")
@@ -953,6 +987,17 @@ namespace TaskMate.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("TaskMate.Entities.Attachment", b =>
+                {
+                    b.HasOne("TaskMate.Entities.Card", "Cards")
+                        .WithMany("Attachments")
+                        .HasForeignKey("CardsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Cards");
+                });
+
             modelBuilder.Entity("TaskMate.Entities.Boards", b =>
                 {
                     b.HasOne("TaskMate.Entities.Workspace", "Workspace")
@@ -1207,6 +1252,8 @@ namespace TaskMate.Migrations
 
             modelBuilder.Entity("TaskMate.Entities.Card", b =>
                 {
+                    b.Navigation("Attachments");
+
                     b.Navigation("Checklists");
 
                     b.Navigation("Comments");
