@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\TaskMateBackEnd-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\asus\\desktop\\taskmatebackend-main\\controllers\\boardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:controllers\\boardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\asus\\desktop\\taskmatebackend-main\\service\\abstraction\\iboardsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:service\\abstraction\\iboardsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\asus\\desktop\\taskmatebackend-main\\service\\implementations\\boardsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:service\\implementations\\boardsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\asus\\desktop\\taskmatebackend-main\\service\\implementations\\cardlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:service\\implementations\\cardlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\asus\\desktop\\taskmatebackend-main\\dtos\\boards\\getboardsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:dtos\\boards\\getboardsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\asus\\desktop\\taskmatebackend-main\\entities\\boards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:entities\\boards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\asus\\desktop\\taskmatebackend-main\\entities\\workspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:entities\\workspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BoardsController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\TaskMateBackEnd-main\\Controllers\\BoardsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BoardsController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\TaskMateBackEnd-main\\Controllers\\BoardsController.cs",
+              "RelativeToolTip": "Controllers\\BoardsController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAcwDwAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T03:16:50.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IBoardsService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\TaskMateBackEnd-main\\Service\\Abstraction\\IBoardsService.cs",
+              "RelativeDocumentMoniker": "Service\\Abstraction\\IBoardsService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\TaskMateBackEnd-main\\Service\\Abstraction\\IBoardsService.cs",
+              "RelativeToolTip": "Service\\Abstraction\\IBoardsService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAgwA8AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T03:15:22.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CardListService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\TaskMateBackEnd-main\\Service\\Implementations\\CardListService.cs",
+              "RelativeDocumentMoniker": "Service\\Implementations\\CardListService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\TaskMateBackEnd-main\\Service\\Implementations\\CardListService.cs",
+              "RelativeToolTip": "Service\\Implementations\\CardListService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T03:14:08.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BoardsService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\TaskMateBackEnd-main\\Service\\Implementations\\BoardsService.cs",
+              "RelativeDocumentMoniker": "Service\\Implementations\\BoardsService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\TaskMateBackEnd-main\\Service\\Implementations\\BoardsService.cs",
+              "RelativeToolTip": "Service\\Implementations\\BoardsService.cs",
+              "ViewState": "AQIAAAsBAAAAAAAAAAAswAMBAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T03:07:51.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetBoardsDto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\TaskMateBackEnd-main\\DTOs\\Boards\\GetBoardsDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Boards\\GetBoardsDto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\TaskMateBackEnd-main\\DTOs\\Boards\\GetBoardsDto.cs",
+              "RelativeToolTip": "DTOs\\Boards\\GetBoardsDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T03:06:36.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Workspace.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\TaskMateBackEnd-main\\Entities\\Workspace.cs",
+              "RelativeDocumentMoniker": "Entities\\Workspace.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\TaskMateBackEnd-main\\Entities\\Workspace.cs",
+              "RelativeToolTip": "Entities\\Workspace.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T03:06:08.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Boards.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\TaskMateBackEnd-main\\Entities\\Boards.cs",
+              "RelativeDocumentMoniker": "Entities\\Boards.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\TaskMateBackEnd-main\\Entities\\Boards.cs",
+              "RelativeToolTip": "Entities\\Boards.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T03:04:46.555Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
